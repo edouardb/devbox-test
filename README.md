@@ -10,7 +10,7 @@ The Koyeb service will comes with Docker running allowing you to build and run c
 
 Let's get started by creating the service to Koyeb by clicking the button below:
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=devbox&type=git&repository=edouardb%2Fgdevbox-test&branch=main&builder=dockerfile&dockerfile=.%2FDockerfile&privileged=true&service_type=worker&instance_type=gpu-nvidia-a100&env%5BTERM%5D=xterm&env%5BVSCODE_CLI_DISABLE_KEYCHAIN_ENCRYPT%5D=1&env%5BVSCODE_CLI_USE_FILE_KEYRING%5D=1&volume_size[persist-vscode]=10&volume_path[persist-vscode]=/data/vscode&volume_size[persist-vscode-server]=10&volume_path[persist-vscode-server]=/data/vscode-server)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=devbox&type=git&repository=edouardb%2Fdevbox-test&branch=main&builder=dockerfile&dockerfile=.%2FDockerfile&privileged=true&service_type=worker&instance_type=gpu-nvidia-a100&env%5BTERM%5D=xterm&env%5BVSCODE_CLI_DISABLE_KEYCHAIN_ENCRYPT%5D=1&env%5BVSCODE_CLI_USE_FILE_KEYRING%5D=1&volume_size[persist-vscode]=10&volume_path[persist-vscode]=/data/vscode&volume_size[persist-vscode-server]=10&volume_path[persist-vscode-server]=/data/vscode-server)
 
 ### Configuring VSCode for remote development
 
