@@ -10,7 +10,7 @@ The Koyeb service will comes with Docker running allowing you to build and run c
 
 Let's get started by creating the service to Koyeb by clicking the button below:
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=devbox&type=git&repository=edouardb%2Fdevbox-test&branch=main&builder=dockerfile&dockerfile=.%2FDockerfile&privileged=true&service_type=worker&instance_type=gpu-nvidia-a100&env%5BVSC_NODE_NAME%5D=gpu-box&env%5BVSCODE_CLI_DISABLE_KEYCHAIN_ENCRYPT%5D=1&env%5BVSCODE_CLI_USE_FILE_KEYRING%5D=1&volume_size[user-data]=100&volume_path[user-data]=/home/dev&volume_size)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=devbox&type=git&repository=edouardb%2Fdevbox-test&branch=main&builder=dockerfile&dockerfile=.%2FDockerfile&privileged=true&service_type=worker&instance_type=gpu-nvidia-a100&env%5BVSC_NODE_NAME%5D=gpu-box&env%5BVSCODE_CLI_DISABLE_KEYCHAIN_ENCRYPT%5D=1&env%5BVSCODE_CLI_USE_FILE_KEYRING%5D=1)
 
 ### Configuring VSCode for remote development
 
