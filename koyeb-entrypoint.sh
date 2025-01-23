@@ -1,9 +1,9 @@
-#!/bin/sh
+ #!/bin/sh
 
 set -e
 
 # Run docker daemon
-sudo /usr/local/bin/dockerd-entrypoint.sh --data-root=/workspace/docker-cache --tls=false >/tmp/docker.log 2>&1 &
+sudo /usr/local/bin/dockerd-entrypoint.sh --tls=false >/tmp/docker.log 2>&1 &
 
 echo "Waiting for docker daemon to start..." >&2
 
